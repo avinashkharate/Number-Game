@@ -7,13 +7,14 @@ while (guess<10):
     a=int(input())
     if(a==n):
         print(f'you won in {guess} guesses')
+        print("Congratulations..!")
         break
     elif (a>n):
-        print('you entered bigger number')
+        print('you entered greater number')
     else:
         print("you entered smaller number")
     print(f"number of guesses reamaining {10-(guess+1)}")
     guess = guess+1
 
-if(guess==5):
+if if(guess==5):
     print("You ran out of chances")
