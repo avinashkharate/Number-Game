@@ -16,4 +16,5 @@ while (guess<10):
     print(f"number of guesses reamaining {10-(guess+1)}")
     guess = guess+1
 
-print("Thank you for playing number guessing game")
+if if(guess==5):
+    print("You ran out of chances")
